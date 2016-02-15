@@ -1,4 +1,5 @@
 class uboate{ 
-  include uboate::initalize
   include uboate::docker
+  include uboate::initalize
+  include uboate::packages
 }
